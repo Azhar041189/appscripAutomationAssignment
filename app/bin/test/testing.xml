@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="KWIBAL" parallel="tests" thread-count="2">
+    <test name="KWIBAL Test">
+        <classes>
+            <class name="Tests.SearchProducttest"/>
+            <class name="Tests.WaitMechanism"/>
+             <class name="Tests.Checkouttest"/>
+                               
+        </classes>
+    </test>
